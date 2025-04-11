@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card {
+            width: 300px;
+            /* height: 200px; */
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            margin: 200px;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .card p {
+            color: #666;
+            font-size: 1em;
+        }
+        .card button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        
+        }
+        .card button:hover {
+            background: #0056b3;
+        }
+
+        #addFrind{
+            background-color: green;
+        }
+        #RemoveFrind{
+            background-color: red;
+
+        }
+        #toggle-btn{
+            background-color: green;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img id="profileImage" src="https://www.freeiconspng.com/thumbs/person-icon/person-icon-person-icon-17.jpg">
+        <div class="card-content">
+            <h2 id="Friend-text">Stranger</h2>
+            <button id="addFrind">add Friend</button>
+            <button id="RemoveFrind">Remove Friend</button>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <img id="c2-profileImage" src="https://www.freeiconspng.com/thumbs/person-icon/person-icon-person-icon-17.jpg">
+        <div class="card-content">
+            <h2 id="F-text">Stranger</h2>
+            <button id="toggle-btn">add Friend</button>
+            
+        </div>
+    </div>
+
+
+
+
+    <script src="17-02-2025.js"></script>
+</body>
+</html>
