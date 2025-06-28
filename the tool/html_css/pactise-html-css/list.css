@@ -1,0 +1,29 @@
+.container{
+    border: 2px solid black;
+    width: 1200px;
+
+    height: 800px;
+    
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+}
+
+.img1{
+    position: relative;
+
+}
+
+.img2{
+    position: absolute;
+    z-index: 2;
+
+
+}
+
+.img3{
+    position: relative;
+    z-index: 1;
+}

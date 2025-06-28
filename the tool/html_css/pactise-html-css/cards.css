@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    box-shadow: 0px 1px 10px 0px black;
+}
+
+nav {
+    margin: 0px 0px 0px 180px;
+}
+
+nav,
+.nav-items {
+    display: flex;
+}
+
+.nav-logo {
+    margin: 5px 50px 5px 0px;
+    font-size: 35px;
+    text-decoration: underline solid blue;
+}
+
+.nav-item {
+    margin: 0px 35px;
+    font-size: 18px;
+    color: hwb(0 20% 80% / 0.95);
+    list-style: none;
+}
+
+.nav-item:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.heading-div {
+    margin: 20px 210px;
+}
+
+.heading-div h2 {
+    margin: 0px;
+    font-size: 30px;
+    color: #212121;
+}
+
+.heading-div p {
+    margin: 5px 0px;
+    color: #575757;
+}
+
+.cards-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 9px -6px rgb(0, 0, 0);
+    padding: 20px 15px;
+    width: 300px;
+    text-align: center;
+    margin: 5px 25px;
+    filter: blur(1px);
+}
+
+.card .card-img {
+    width: 300px;
+
+    height: 200px;
+}
+
+.card:hover{
+    filter:none;
+    transform: scale(1.0);
+
+
+
+}
+.review-card:hover {
+    box-shadow: 0px 2px 19px -10px rgb(0, 0, 0);
+}
+
+.card h3,
+h4 {
+    color: #333;
+    margin: 5px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    margin: 15px 0px;
+}
+
+.card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+.cards-conteiner {
+    display: flex;
+    width: 100;
+    margin-left: 180px;
+}
+
+.cards {
+    margin: 25px;
+    margin-top: 0;
+}
+
+.review-card {
+    display: flex;
+    width: 320px;
+    background: white;
+    box-shadow: 0px 4px 9px -6px rgb(0, 0, 0);
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.image-section img {
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+}
+
+.content-section {
+    padding: 16px;
+}
+
+.name {
+    margin: 0;
+    font-size: 20px;
+    color: #2e2e2e;
+}
+
+.day {
+    margin: 4px 0;
+    font-size: 15px;
+    color: #888;
+}
+
+.comment {
+    margin: 8px 0 0;
+    font-size: 16px;
+    color: #464646;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+    margin:0px 25px;
+    color: #fff;
+}
+
+.social-links li:hover {
+    color: #00aced;
+    cursor: pointer;
+}

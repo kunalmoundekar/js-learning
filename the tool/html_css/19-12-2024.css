@@ -1,0 +1,93 @@
+.cards-div{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 50px;
+    height: 100vh;
+}
+
+
+
+.card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+
+    background: linear-gradient(to bottom, #8b00ffa8 0%, #020430b8 50%, #8b00ffa8 100%);
+
+    gap: 30px;
+
+    
+
+}
+
+.logo{
+    color: white;
+    padding: 0px  0px 40px 0px;
+    font-size: 100px;
+}
+
+button{
+    padding: 12px 20px;
+    width: 70%;
+    border-radius: 25px;
+    
+    border: 2px solid rgb(32 32 59);
+    border-bottom:none ;
+    background-color: #20206c;
+    color: white
+}
+
+.b-2{
+    background-color:transparent ;
+    border: 2px solid  white;
+}
+
+.card p{
+   display: flex;
+
+}
+
+.card-2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #8b00ffa8 0%, #020430b8 50%, #8b00ffa8 100%);
+}
+
+.card2-div1{
+    width: 80%;
+    height: 70%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card2-div2{
+    width: 80%;
+    height: 30%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+
+}
+
+.div-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

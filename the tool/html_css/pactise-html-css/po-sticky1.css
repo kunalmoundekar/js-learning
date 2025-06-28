@@ -1,0 +1,13 @@
+.po-sticky{
+    background-color: red;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    position: sticky;
+    top: 10px;
+
+}
+span{
+    border: 2px solid white;
+}
+    

@@ -1,0 +1,15 @@
+.sticky{
+    background-color: yellow;
+    padding: 10px;
+    top: 0px;
+    position: sticky;
+}
+h1{
+    font-size: 30px;
+}
+
+.pa{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+}

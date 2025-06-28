@@ -1,0 +1,87 @@
+.para1{
+    font-size: 20px;
+}
+
+.button1{
+    font-size: 25px;
+}
+
+.div{
+    font-size: 20px;
+}
+
+.div{
+    border: 4px solid black;
+    margin: 20px  20px 20px 0px;
+}
+
+.inner-style{
+    padding-left: 5px;
+    background-color: aqua;
+    border: 4px dashed red ;
+}
+
+.inner-style span{
+    border: 2px solid black;
+}
+
+.text-propertise{
+
+    /* text-decoration: underline; */
+    text-decoration: overline;
+     text-decoration-color:tomato   ;   /* its change a decoretion color */
+     text-decoration-style: dotted ;
+     text-decoration-thickness:-1px ;
+     text-indent: 60px;
+     /* text-align: center;
+     text-align: justify;
+     text-align: start;
+     text-align: end; */
+
+
+    font-size: 30px;
+
+}
+
+.example{
+    height: 300px;
+    width: 400px;
+    border: 1px  solid black;
+
+    overflow: scroll;
+    /* overflow: hidden; */ 
+    /* overflow: auto; */
+    
+    
+}
+
+.outer-div{
+    border: 2px solid black;
+    height:fit-content ;
+    width:fit-content ;
+}
+
+.inner-div{
+    /* border: 5px solid red; */
+    margin: 15px;
+}
+
+.inner-div .p-dashed{
+    border: 2px dashed blue ;
+    padding: 4px;
+}
+
+.b-solid {
+    border: 2px solid rgb(0, 0, 0) ;
+    padding: 4px;
+
+}
+
+.button-ass-2{
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+
+

@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Yuji+Mai&display=swap');
+
+
+
+H1{
+    font-family: "Caveat", cursive;}
+    
+    
+table,tr,th{
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.red {
+    background-color: red;
+
+}
+
+.whith {
+    background-color: white;
+
+}
+
+.gold {
+    background-color: gold;
+
+}
+
+.royal {
+    background-color: royalblue;
+}
+
+
+
+.navy {
+    background-color: navy;
+
+}
+
+.silver {
+    background-color: silver;
+
+}
+
+.cray {
+    background-color: gray;
+
+}
+
+.teal {
+    background-color: teal;
+
+}
+
+.purple {
+    background-color: purple;
+}
+
+
+
+.orange {
+    background-color: orange;
+}
+
+.olive{
+    background-color: olive;
+}
+
+.forrest {
+    background-color: forestgreen;
+
+}
+
+.yellow {
+    background-color: yellow;
+
+}
+
+.burgundy {
+    background-color: rgb(151, 49, 5);
+
+}
+
+.brown{
+    background-color: brown;
+}
+
+
+
+.coyote {
+    background-color: rgb(249, 211, 114);
+}
+
+.khaki {
+    background-color: khaki;
+}
+
+.lime-green {
+    background-color: limegreen;
+}
+
+.soft-pink {
+    background-color: rgb(252, 169, 183);
+}
+
+
+
+ .carolina{background-color: cornflowerblue ;}           
+ .copper{background-color: rgb(116, 14, 35) ;}           
+ .hot-pink{background-color:hotpink ;}           
+ .aqua{background-color:aqua ;}           
+ .lily-pad{background-color:lightgreen ;}           
+
+
+ .container{
+    text-align: left;
+    background-color: rgb(247, 89, 139);
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+}
+
+.container-1{
+    
+    text-align: center;
+    color: white;
+    margin: 20px 0px;
+    font-size: 25px;
+ }
+ .container-2{
+    background-color: rgb(241, 239, 240);
+    padding: 20px 10px 10px 10px;
+    
+    
+}
+.container3{
+    border: 2px solid rgb(59, 58, 58);
+    height: 80px;
+    width: 80px;
+    
+    overflow-x:scroll;
+ }
+
+ 

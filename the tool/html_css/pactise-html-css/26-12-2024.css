@@ -1,0 +1,234 @@
+/* .box{
+    border: 2px solid black;
+}
+.container{
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px 100px 100px ;
+    grid-template-rows:200px ;
+} */
+
+/* .d-g {
+    border: 2px solid black;
+
+
+} 
+
+nav,
+footer {
+    height: 50px;
+    border: 2px solid black;
+
+}
+
+
+
+
+
+.article {
+    border: 2px solid rgb(8, 8, 8);
+    background-color: black;
+}
+
+.container2 {
+    display: grid;
+    grid-template-areas: "nav nav nav nav" 
+        "article aside aside aside"
+        "article footer footer footer"
+        "article footer footer footer";
+
+
+}
+
+
+.aside {
+    grid-area: aside;
+}
+
+.nav {
+    grid-area: nav;
+
+}
+
+.main {
+    grid-area: main;
+}
+
+.article {
+    grid-area: article;
+
+}
+
+.footer {
+    grid-area: footer;
+
+
+}
+*/
+
+.container {
+    display: grid;
+    grid-template-areas: "b-1 b-2 b-3"
+        "b-4 b-5 b-6";
+    border: 2px solid black;
+    gap: 5px;
+    padding: 10px;
+    background-color: black;
+}
+
+.container div {
+    height: 200px;
+    /* width: 50px; */
+    border: 2px solid black;
+
+}
+
+.box-1 {
+    grid-area: b-1;
+    background-color: brown;
+
+
+}
+
+.box-2 {
+    grid-area: b-2;
+    background-color: orangered;
+
+}
+
+.box-3 {
+    grid-area: b-3;
+    background-color: yellow;
+
+}
+
+.box-4 {
+    grid-area: b-4;
+    background-color: skyblue;
+
+}
+
+.box-5 {
+    grid-area: b-5;
+    background-color: rgb(136, 172, 185);
+
+}
+
+.box-6 {
+    grid-area: b-6;
+    background-color: rgb(198, 240, 255);
+
+}
+
+.container-2 {
+    display: grid;
+    grid-template-areas: "g-1 g-1 g-4"
+        "g-2 g-3 g-4";
+
+
+}
+
+.item-1 {
+    grid-area: g-1;
+    background-color: red;
+    height: 200px;
+}
+
+.item-2 {
+    grid-area: g-2;
+    background-color: rgb(0, 166, 255);
+    height: 200px;
+
+
+}
+
+.item-3 {
+    grid-area: g-3;
+    background-color: rgb(0, 85, 255);
+
+}
+
+.item-4 {
+    grid-area: g-4;
+    background-color: rgb(255, 142, 43);
+
+}
+
+.container-3 {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "c-1 c-1" "c-2 c-3" "c-4 c-4";
+    margin-top: 50px;
+    grid-template-rows: 100px 200px 100px;
+    grid-template-columns: 200px 800px;
+
+
+}
+
+.contant-1 {
+
+    grid-area: c-1;
+    background-color: rgb(246, 153, 54);
+}
+
+.contant-2 {
+    grid-area: c-2;
+    background-color: #0b4e73;
+
+}
+
+.contant-3 {
+    grid-area: c-3;
+    background-color: rgb(213, 14, 14);
+
+}
+
+.contant-4 {
+    grid-area: c-4;
+    background-color: #36ecf6;
+
+}
+
+.container-4 {
+    display: grid;
+    grid-template-areas:"i-1 i-1 i-1 i-1 i-2 i-2 i-2 i-2"
+                        "i-3 i-3 i-3 i-4 i-4 i-4 i-4 i-4"
+                        "i-5 i-5 i-5 i-5 i-5 i-5 i-5 i-5";
+                        grid-template-rows: 100px 200px 70px;
+                        /* grid-template-columns: 100px 200px 70px; */
+                        margin-top: 200px;
+                        background-color: black;
+                        gap: 5px;
+                        padding: 15px;
+
+}
+
+.items-1 {
+    grid-area: i-1;
+    background-color: rgb(246, 153, 54);
+
+
+}
+
+.items-2 {
+    grid-area: i-2;
+    background-color: rgb(243, 70, 32);
+
+}
+
+.items-3 {
+    grid-area: i-3;
+    background-color: rgb(54, 112, 246);
+
+}
+
+.items-4 {
+    grid-area: i-4;
+    background-color: rgb(54, 214, 246);
+
+}
+
+.items-5 {
+    grid-area: i-5;
+    background-color: rgb(246, 153, 54);
+
+}

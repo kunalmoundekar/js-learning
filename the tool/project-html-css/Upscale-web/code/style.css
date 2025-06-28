@@ -1,0 +1,980 @@
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     box-sizing: border-box;
+ }
+
+ /* navbar style starts */
+
+ nav {
+     width: 100%;
+     background-color: #15a8e0;
+     height: 50px;
+ }
+
+ .nav-top {
+     width: 85%;
+     height: 100%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .nav-right {
+     display: flex;
+     align-items: center;
+ }
+
+ .nav-left {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .nav-right a:hover {
+     color: #6c6c6c;
+ }
+
+ .nav-right a,
+ .nav-left a {
+     font-size: 14px;
+     color: #ffffff;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+ }
+
+ .nav-location-r {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .nav-location-l {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .nav-left a:hover {
+     color: #6c6c6c;
+ }
+
+ .nav-left .n-l {
+     margin-right: 10px;
+ }
+
+ .m-L {
+     margin: 0px 4px;
+ }
+
+ .icons {
+     height: 20px;
+     width: 20px;
+     margin-right: 10px;
+ }
+
+ .i-2 {
+     margin: 0px 10px;
+ }
+
+ /* dropdown style */
+/* Dropdown Course Style */
+.dropdown-course {
+    position: relative;
+}
+
+.dropdown-course a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown-course:hover .drop-div {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+}
+
+.drop-div {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: -500px;
+    width: max-content;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+}
+
+.drop {
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.drop2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+   
+
+}
+
+.drop2 a p{ 
+     text-overflow: ellipsis;
+    text-wrap: wrap;
+}
+
+.drop1 a, .drop2 a {
+
+    display: flex;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #111;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+/* .drop1 a:hover, .drop2 a:hover {
+    color: #007BFF;
+} */
+
+
+
+
+
+
+
+
+ /* header  */
+ /* header style starts */
+
+ 
+
+ .header {
+     height: 90px;
+     width: 85%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .header-2-div {
+     display: block;
+ }
+
+ .header-2-div ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .header-2-div ul li {
+     list-style: none;
+ }
+
+ .header-2-div ul li a:hover {
+     color: #1e73be;
+ }
+
+ .header-2-div ul li a {
+     white-space: nowrap;
+     font-size: 17px;
+     padding: 15px 20px;
+     color: #111;
+     font-family: sans-serif;
+     text-decoration: none;
+     font-weight: 600;
+     font-family: "Raleway", serif;
+ }
+
+ li a .fa {
+     font-size: 17px;
+     color: #000000;
+     font-weight: 900;
+ }
+
+ ul .icon {
+     padding-right: 5px;
+ }
+
+ .head-logo {
+     width: 201px;
+     height: 60px;
+ }
+
+ .header-2-div {
+     width: 70%;
+ }
+
+ .hambarger {
+     display: none;
+ }
+
+ .hambarger i {
+     font-size: 20px;
+     cursor: pointer;
+     color: #4e4e4e;
+ }
+
+ .hambarger i:hover {
+     color: #15a8e0;
+ }
+
+ /* main style start */
+ #main {
+     height: 650px;
+ }
+
+ .bg-img {
+     height: 100%;
+     background-image: url("../img/bg-img-upsacle.webp");
+     background-position: left;
+     background-size: cover;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ .bg-container {
+     width: 80%;
+     margin: auto;
+     display: flex;
+     justify-content: end;
+ }
+
+
+
+
+ .responsive-box {
+     background-color: rgba(255, 255, 255, 0.8);
+     border: 2px solid #ddd;
+     border-radius: 4px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     max-width: 500px;
+ }
+
+ .responsive-box img {
+     width: 20%;
+     height: 10%;
+     margin: 15px 0;
+ }
+
+ .responsive-box h2 {
+     font-size: 1.8rem;
+     margin-bottom: 10px;
+ }
+
+ .responsive-box p {
+     font-size: 1rem;
+     color: #666;
+     margin-bottom: 20px;
+ }
+
+ .responsive-box button {
+     background-color: #007BFF;
+     color: #ffffff;
+     border: none;
+     padding: 10px 30px;
+     border-radius: 2px;
+     cursor: pointer;
+     font-size: 1rem;
+     transition: background-color 0.3s ease;
+ }
+
+ .responsive-box button:hover {
+     background-color: #007db3;
+ }
+
+ #section1 .img-div {
+     background-image: url("../img/White-back.webp");
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+     min-height: 35vw;
+     display: flex;
+     align-items: center;
+     padding: 2rem 0px;
+
+
+ }
+
+ #section1 .img-div .text-div {
+     width: 80%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+
+ }
+
+ #section1 .img-div .text-div h2 {
+     font-size: 2.5rem;
+     padding-bottom: 1.5rem;
+     color: #007BFF;
+ }
+
+ #section1 .img-div .text-div p {
+     font-size: 1.5rem;
+     font-weight: 800;
+
+ }
+
+ #courses-div {
+     width: 100%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     /* background-color: rgb(244 246 247); */
+     padding: 5rem 0px;
+
+ }
+
+ #courses-div .course {
+     width: 92%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+
+ }
+
+ #courses-div .course .course-div1 {
+     width: 85%;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 2rem;
+     background-color: #ffffff;
+     border-radius: 8px;
+     text-align: center;
+     padding: 5rem 1rem;
+     box-shadow: 0px 3px 21px -7px;
+ }
+
+ .course .course-div1 h2 {
+     font-size: 2.2rem;
+ }
+
+ .course .course-div1 p {
+     font-size: 1.2rem;
+ }
+
+ #courses-div .course .course-div2 {
+     width: 90%;
+     margin: 50px auto;
+     display: grid;
+     place-items: center;
+     gap: 2rem;
+     grid-template-columns: 1fr 1fr 1fr;
+
+ }
+
+
+
+ .course-div2 .cards {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     box-shadow: 0px 3px 21px -7px;
+ }
+
+ .course-div2 .cards:hover {
+     transform: scale(1.05);
+     transition: transform 500ms 0s;
+
+ }
+
+ .course-div2 .cards img {
+     width: 100%;
+
+ }
+
+ .course-div2 .cards .card-button {
+     cursor: pointer;
+     margin-bottom: 1rem;
+     padding: 10px 0px;
+     width: 70%;
+     background-color: white;
+     border: 2px solid blue;
+     color: blue;
+     font-weight: 500;
+     font-size: 0.9rem;
+ }
+
+ .course-div2 .cards .card-button:hover {
+     background-color: blue;
+     color: white;
+     transition: all 1s 0s ease;
+ }
+
+ .course-div2 .cards h3 {
+     font-size: 1.5rem;
+ }
+
+ .course-div2 .cards i {
+     font-size: 1.5rem;
+     color: #ffa400;
+     height: 2rem;
+ }
+
+ .coures-btn-div {
+     display: flex;
+     /* align-items: center; */
+     justify-content: center;
+ }
+
+ .course .coures-btn {
+     padding: 0.8rem 3rem;
+     background-color: white;
+     border: 2px solid #007BFF;
+     color: #007BFF;
+     font-size: 1rem;
+ }
+
+ .course .coures-btn:hover {
+     background-color: #007BFF;
+     color: white;
+     border-radius: 8px;
+     transition: all 500ms 100ms;
+ }
+
+ #second-bg-div {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg-img-2.webp");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 500px;
+     width: 100%;
+
+ }
+
+ #second-bg-div .second-bg-div {
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+     margin: auto;
+     padding: 8rem 0px;
+ }
+
+
+ .second-bg-div .btn-div {
+     width: 20%;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+
+ }
+
+
+ .second-bg-div .text-div {
+     width: 70%;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+ }
+
+ .second-bg-div .text-div h4 {
+     color: white;
+     font-size: 3rem;
+ }
+
+ .second-bg-div .text-div h5 {
+     color: white;
+     font-size: 1.8rem;
+ }
+
+ .second-bg-div .text-div p {
+     color: white;
+     font-size: 1rem;
+ }
+
+ .second-bg-div .btn-div button {
+     width: 100%;
+     color: white;
+     background-color: rgb(18, 160, 255);
+     padding: 1rem 0;
+     font-weight: 700;
+     font-size: 1rem;
+ }
+
+ .second-bg-div .btn-div button:hover {
+     background-color: blue;
+     cursor: pointer;
+ }
+
+
+ #sec-3 {
+     background-color: #393939;
+     display: flex;
+ }
+
+ #sec-3 .sec-div-3 {
+     width: 100%;
+     margin: auto;
+     padding: 2rem 3rem;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ #sec-3 .sec-div-3 .contant {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 1rem;
+     padding: 1rem 0;
+ }
+
+ .contant .img .fa {
+     font-size: 60px;
+     color: #007BFF;
+ }
+
+ .sec-div-3 .contant h4 {
+     font-size: 2rem;
+     color: white;
+     font-weight: bold;
+
+ }
+
+ .sec-div-3 .contant p {
+     font-size: 1.4rem;
+     color: white;
+
+ }
+
+ #sec-4 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .sec-4 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 3rem 0;
+     gap: 3rem 0;
+ }
+
+ .sec-4 h3 {
+     font-size: 2rem;
+     color: #191919;
+ }
+
+ .sec-4 button {
+     font-size: 1rem;
+     color: #292828;
+     color: #007BFF;
+     border: 2px solid #007BFF;
+     padding: 1rem 2rem;
+     cursor: pointer;
+
+ }
+
+ .sec-4 button:hover {
+     color: #ffffff;
+     background-color: #007BFF;
+     transition: all 400ms 200ms;
+ }
+
+
+ #sec-5 {
+     width: 100%;
+     background-color: #c6c6c6;
+ }
+
+ #sec-5 .sec-5 {
+     width: 95%;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 2rem 0;
+     gap: 2rem 0;
+     text-align: center;
+ }
+
+
+ #sec-5 .sec-5 .img-silder {
+     padding: 2rem 0 1rem 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 0 2rem;
+ }
+
+ #sec-5 .sec-5 h3 {
+     font-size: 2rem;
+ }
+
+ #sec-5 .sec-5 p {
+     font-size: 1.1rem;
+ }
+
+ /* footer style strat */
+ #footer {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-img-3.webp");
+     background-position: center;
+     background-size: cover;
+
+ }
+
+ #footer .footer {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     gap: 1rem;
+     width: 90%;
+     margin: auto;
+     padding: 5rem 0;
+     text-align: center;
+ }
+
+ #footer .footer-2 {
+     width: 90%;
+     margin: auto;
+     color: white;
+     padding: 2rem 0;
+     border-top: 1px solid white;
+ }
+
+
+ #footer .footer .footer-div {
+     display: flex;
+     flex-direction: column;
+     text-align: start;
+     gap: 1rem 0;
+ }
+
+ .footer-div p {
+     font-size: 1.1rem;
+     color: white;
+ }
+
+
+ .footer-div h1 {
+     font-size: 1.3rem;
+     color: white;
+     padding-bottom: 1rem;
+ }
+
+ .footer-div p a {
+     font-size: 1.1rem;
+     color: red;
+     text-decoration: none;
+ }
+
+ .footer-div .footer-img img {
+     width: 40px;
+
+ }
+
+ .footer-div img {
+     width: 150px;
+
+
+ }
+
+ .footer .div-img img {
+     margin-bottom: 1rem;
+     cursor: pointer;
+ }
+
+ .f-1 p:hover,
+ .f-2 p:hover {
+     color: #007BFF;
+     cursor: pointer;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Responsive Styles 1360px */
+ @media (max-width:1360px) {
+     #footer .footer {
+         display: grid;
+         grid-template-columns: 1fr;
+         place-items: center;
+     }
+
+     #footer .footer .footer-div {
+         padding: 2rem 0;
+         text-align: center;
+     }
+
+     #sec-5 .sec-5 h3 {
+         font-size: 1.8rem;
+     }
+
+     #sec-5 .sec-5 p {
+         font-size: 1rem;
+     }
+
+     .img-silder .img-s-2,
+     .img-silder .img-s-3 {
+         display: none;
+     }
+
+     .sec-div-3 .contant h4 {
+         font-size: 1.5rem;
+     }
+
+     .sec-div-3 .contant p {
+         font-size: 1rem;
+     }
+
+     .course-div2 .cards {
+         width: 80%;
+     }
+
+     #courses-div .course .course-div2 {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: repeat(5, 1fr);
+         justify-items: center;
+     }
+
+     .course-div2 .card9 {
+         grid-column: 1 / -1;
+         width: 40%;
+         justify-self: center;
+         align-self: center;
+     }
+
+     .course .course .course-div1 h2 {
+         font-size: 2rem;
+     }
+
+     .course .course-div1 p {
+         font-size: 1rem;
+     }
+
+     #section1 .img-div .text-div h2 {
+         font-size: 2rem;
+         padding-bottom: 1.2rem;
+     }
+
+     #section1 .img-div .text-div p {
+         font-size: 1.2rem;
+     }
+
+     .hambarger {
+         display: block;
+     }
+
+     .header-2-div {
+         display: none;
+     }
+
+     .bg-img {
+         display: flex;
+         justify-content: center;
+     }
+ }
+
+ /* Responsive Styles 768px */
+
+ @media (max-width: 768px) {
+
+     #footer .footer-2 {
+         padding: 1rem 0;
+     }
+
+     #sec-5 .sec-5 .img-silder {
+         gap: 0rem;
+     }
+
+     .img-silder .img-s-2,
+     .img-silder .img-s-3,
+     .img-silder .img-s-4 {
+         display: none;
+     }
+
+     .sec-4 h3 {
+         font-size: 1.5rem;
+     }
+
+     .sec-4 button {
+         font-size: 0.8rem;
+     }
+
+     #sec-3 .sec-div-3 {
+         grid-template-columns: 1fr;
+     }
+
+     .sec-div-3 .contant {
+         margin: 2rem 0;
+     }
+
+     .sec-div-3 .contant h4 {
+         font-size: 1.4rem;
+     }
+
+     .sec-div-3 .contant p {
+         font-size: 1.2rem;
+     }
+
+
+     #second-bg-div .second-bg-div {
+         flex-direction: column;
+         padding: 4rem 0px;
+     }
+
+     .second-bg-div .text-div {
+         width: 100%;
+     }
+
+     .second-bg-div .btn-div {
+         width: 100%;
+         justify-content: center;
+         padding: 3rem 0;
+     }
+
+     .second-bg-div .btn-div button {
+         width: 100%;
+         color: white;
+         background-color: rgb(18, 160, 255);
+         padding: 1rem 0;
+         font-weight: 700;
+         font-size: 1rem;
+     }
+
+     .course-div2 .cards {
+         width: 80%;
+     }
+
+     .course-div2 .card9 {
+         align-self: center;
+     }
+
+     #courses-div .course .course-div2 {
+         grid-template-columns: 1fr;
+     }
+
+     .course .course-div1 h2 {
+         font-size: 1.8rem;
+     }
+
+     nav {
+         height: 60px;
+         padding: 10px 0px;
+         box-sizing: content-box;
+     }
+
+     .nav-top {
+         flex-direction: column;
+     }
+
+     .nav-left {
+         flex-direction: column;
+     }
+
+     #section1 .img-div .text-div h2 {
+         font-size: 1.8rem;
+         padding-bottom: 1rem;
+     }
+
+     #section1 .img-div .text-div p {
+         font-size: 1rem;
+     }
+
+     #main {
+         height: 70vw;
+     }
+
+     #main .bg-img {
+         height: 70vw;
+         width: 100%;
+     }
+
+     .responsive-box {
+         padding: 15px;
+     }
+
+     .responsive-box h2 {
+         font-size: 1.5rem;
+     }
+
+     .responsive-box p {
+         font-size: 0.9rem;
+     }
+
+     .responsive-box button {
+         font-size: 0.9rem;
+         padding: 8px 25px;
+     }
+ }
+
+ /* Responsive Styles 480px */
+ @media (max-width: 480px) {
+     .course .course-div1 h2 {
+         font-size: 1rem;
+     }
+
+     .course .course-div1 p {
+         font-size: 1rem;
+     }
+
+     #section1 .img-div .text-div h2 {
+         font-size: 0.8rem;
+         padding-bottom: 1rem;
+     }
+
+     #section1 .img-div .text-div p {
+         font-size: 0.8rem;
+     }
+
+     .responsive-box {
+         padding: 10px;
+     }
+
+     .responsive-box h2 {
+         font-size: 1.2rem;
+     }
+
+     .responsive-box p {
+         font-size: 0.8rem;
+     }
+
+     .responsive-box button {
+         font-size: 0.8rem;
+         padding: 5px 25px;
+     }
+ }

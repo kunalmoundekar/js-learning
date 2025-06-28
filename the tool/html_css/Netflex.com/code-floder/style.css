@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img-floder/netflix-bg-img.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10%;
+    position: relative;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+nav div {
+    margin-right: 5px;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background-color: rgb(255, 33, 33);
+    color: #fff;
+    padding: 6px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.h-btn:hover{
+    background-color: rgb(170, 11, 11);
+}
+
+
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.lng-btn {
+    cursor: auto;
+    background: transparent;
+    border: 1px solid rgb(152, 152, 152);
+}
+
+.lng-btn select {
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+}
+
+.lng-btn select option {
+    color: black;
+    padding: 10px;
+}
+
+select option:hover {
+    color: white;
+    background-color: rgb(35, 141, 254);
+}
+
+.header-text {
+    width: 80vw;
+    height: 80vh;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-text h3 {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: light;
+}
+
+.header-text p {
+    margin: 20px 0;
+    font-size: 20px;
+
+
+}
+
+.head-f input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(91, 91, 91);
+    color: white;
+    padding: 8px 12px;
+}
+
+.head-f button {
+    height: 50px;
+    width: 200px;
+    color: wheat;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 20px;
+    background-color: rgb(255, 33, 33);
+}
+
+
+
+.head-f button:hover {
+    background-color: rgb(186, 1, 1);
+    cursor: pointer;
+
+}
+
+main {
+    background-color: black;
+
+}
+
+.sider-cards {
+    width: 80%;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+.sider-cards h3 {
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+.treanding-select select {
+
+    padding: 10px;
+    background: transparent;
+    color: white;
+    margin: 0px 10px;
+    border: 0.5px solid rgb(118, 118, 118);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.tread-card {
+    padding: 20px 0px;
+    display: flex;
+    gap: 30px;
+}
+
+.tread-card div img {
+    border-radius: 16px;
+}
+
+.tread-card div img:hover {
+
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+
+.gradient-box {
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+    padding: 20px 10px;
+    
+}
+
+.gradient-box h1 {
+    color: white;
+    padding: 20px 0px;
+}
+
+.gradient-box p {
+    color: rgb(185, 185, 185);
+
+}
+.resoan-div{
+    display: flex;
+    gap: 20px;
+
+}
+
+.res-sec h1 {
+    font-size: 25px;
+    padding: 30px 0px 30px 0px;
+}
+
+.f-que-section{
+    width: 80%;
+    margin: auto;
+    padding: 40px 0px;
+    font-size: 25px;
+    background: black;
+    
+
+}
+
+.f-que-section h1{
+    padding: 10px 0px 20px 0px;
+}
+
+.que{
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    
+
+}
+
+.que:hover{
+    background-color: rgb(92, 92, 92);
+    cursor: pointer;
+
+
+}
+
+.div-plus{
+    font-size: 50px;
+}
+
+.last-input{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+
+}
+
+.last-input-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.last-input input{
+    width: 50%;
+    height: 50px;
+    padding-left: 15px;
+    background-color: transparent;
+    /* outline: none; */
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 4px;
+    background-color: rgb(15, 15, 15);
+}
+.last-input input::placeholder{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+ .last-btn{
+    width: 20%;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(194, 32, 32);
+    border: none;
+    border-radius: 4px;
+
+}
+
+.last-btn:hover{
+    background-color: rgb(176, 5, 5);
+    cursor: pointer;
+
+}
+footer{
+    background-color: black;
+}
+.footer h1{
+    padding: 20px 0 30px 0;
+}
+    
+.footer{
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+
+}
+
+.footer-div{
+    display: flex;
+    width:100% ;
+    gap: 15%;
+    
+}
+.footer-div div{
+    width:20% ;
+    line-height: 30px;
+}
+.f-link{
+    color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+.f-btn button{
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    margin:50px  0px;
+    color: white;
+}
+
+.f-para{
+    /* font-size: 14px; */
+    color: rgb(175, 174, 174);
+}
+    
+    
+    
